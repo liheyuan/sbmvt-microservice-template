@@ -1,0 +1,24 @@
+
+# Use different management port as security rule
+management:
+    port: 8081
+    security.enabled: false
+
+# Enable shutdown
+endpoints.shutdown.enabled: true
+
+# Thrift server config
+mySampleThriftServer:
+  port: 3000
+  name: my-sample-thrift-server
+
+# Eureka server
+eureka:
+  instance:
+    appname: ${mySampleThriftServer.name}
+    nonSecurePort: ${mySampleThriftServer.port}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

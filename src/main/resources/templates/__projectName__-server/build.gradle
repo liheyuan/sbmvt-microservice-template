@@ -1,0 +1,12 @@
+
+dependencies {
+	compile project(':@projectName@-common')
+
+	// compile('org.springframework.boot:spring-boot-starter-jdbc')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-actuator')
+
+	compile 'com.github.liheyuan:sbmvt-thrift-server:0.0.3'
+
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+}

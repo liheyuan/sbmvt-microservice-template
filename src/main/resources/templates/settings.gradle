@@ -1,0 +1,4 @@
+include '@projectName@-common'
+include '@projectName@-client'
+include '@projectName@-job'
+include '@projectName@-server'

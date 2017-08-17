@@ -1,2 +1,2 @@
 #!/bin/bash
-gradle cleanArch generate -i
+./gradlew cleanArch generate -i
