@@ -6,7 +6,6 @@
  */
 package @packageName@.client;
 
-import @packageName@.client.@CamelName@EasyClientBuilder;
 import @packageName@.thrift.@CamelName@Thrift;
 import com.coder4.sbmvt.thrift.client.ThriftClient;
 

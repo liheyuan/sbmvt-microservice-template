@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.coder4.my.sample.client.configuration.MySampleClientConfiguration
+@packageName@.client.configuration.MySampleClientConfiguration

@@ -8,15 +8,15 @@ management:
 endpoints.shutdown.enabled: true
 
 # Thrift server config
-mySampleThriftServer:
+@camelName@ThriftServer:
   port: 3000
-  name: my-sample-thrift-server
+  name: @name@-thrift-server
 
 # Eureka server
 eureka:
   instance:
-    appname: ${mySampleThriftServer.name}
-    nonSecurePort: ${mySampleThriftServer.port}
+    appname: ${@camelName@ThriftServer.name}
+    nonSecurePort: ${@camelName@ThriftServer.port}
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
   client:
