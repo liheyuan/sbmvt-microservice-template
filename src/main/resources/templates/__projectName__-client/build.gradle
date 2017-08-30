@@ -3,9 +3,9 @@ bootRepackage {
 }
 
 dependencies {
-    compile project(':@projectName@-common')
+    compile project(':@projectName@-common') 
 
-    compile('org.springframework.boot:spring-boot-autoconfigure')
+    compile 'org.springframework.boot:spring-boot-autoconfigure'
 
     compile 'com.github.liheyuan:sbmvt-thrift-client:0.0.3'
 

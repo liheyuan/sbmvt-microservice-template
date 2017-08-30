@@ -5,5 +5,5 @@ bootRepackage {
 }
 
 dependencies {
-    compile('org.apache.thrift:libthrift:0.9.3')
+    compile 'org.apache.thrift:libthrift:0.9.3'
 }
