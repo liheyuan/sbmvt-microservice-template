@@ -37,8 +37,8 @@ spring:
 spring:
   profiles: local
 
-  # log config file
-  logging.config: classpath:logback.local.xml
+# log config file
+logging.config: classpath:logback.local.xml
 ---
 spring:
   profiles: test
