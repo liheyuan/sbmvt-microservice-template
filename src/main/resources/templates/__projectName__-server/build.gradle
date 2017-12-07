@@ -9,7 +9,7 @@ dependencies {
 
     compile 'mysql:mysql-connector-java'
 
-    compile 'com.github.liheyuan:sbmvt-thrift-server:0.0.3'
+    compile 'com.coder4.sbmvt:thrift-server:0.0.5'
 
     testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
